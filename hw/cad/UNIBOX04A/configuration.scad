@@ -4,7 +4,7 @@
 
 rozmer_x=103;
 rozmer_y=53;
-sila=2;
+sila=1.5;
 
 roztec_srouby_x=95.02;
 roztec_srouby_y=45;
