@@ -1,0 +1,141 @@
+EESchema Schematic File Version 4
+LIBS:DIODECOVER01A-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "NAME"
+Date "%F"
+Rev "REV"
+Comp "Mlab www.mlab.cz"
+Comment1 "VERSION"
+Comment2 "Short description \\nTwo lines are maximum"
+Comment3 "nickname <email@example.com>"
+Comment4 "BSD"
+$EndDescr
+$Comp
+L Device:D_Photo D2
+U 1 1 5B3A05A5
+P 6000 3650
+F 0 "D2" H 5950 3945 50  0000 C CNN
+F 1 "S2744-09" H 5950 3854 50  0000 C CNN
+F 2 "Mlab_D:HAMAMATSU_S2744-09_SMD" H 5950 3650 50  0001 C CNN
+F 3 "~" H 5950 3650 50  0001 C CNN
+	1    6000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3650 6150 3650
+$Comp
+L MLAB_HEADER:HEADER_1x02 J10
+U 1 1 5B4670EE
+P 5950 3000
+F 0 "J10" V 5869 2872 60  0000 R CNN
+F 1 "HEADER_1x02" V 5816 2872 60  0001 R CNN
+F 2 "Mlab_Pin_Headers:SMD_1_2_4x2" H 5950 3050 60  0001 C CNN
+F 3 "" H 5950 3050 60  0000 C CNN
+	1    5950 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 3200 5750 3200
+Wire Wire Line
+	5750 3200 5750 3650
+Wire Wire Line
+	5750 3650 5800 3650
+Wire Wire Line
+	6000 3200 6150 3200
+Wire Wire Line
+	6150 3200 6150 3650
+Text Label 6150 3300 1    60   ~ 0
+A
+$Comp
+L MLAB_HEADER:HEADER_1x03 J1
+U 1 1 5B671102
+P 7250 2000
+F 0 "J1" H 7328 2058 60  0000 L CNN
+F 1 "HEADER_1x03" H 7328 1952 60  0000 L CNN
+F 2 "Mlab_Pin_Headers:Straight_1x03" H 7250 2100 60  0001 C CNN
+F 3 "" H 7250 2100 60  0000 C CNN
+	1    7250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MLAB_HEADER:HEADER_1x03 J2
+U 1 1 5B671130
+P 7250 2400
+F 0 "J2" H 7328 2458 60  0000 L CNN
+F 1 "HEADER_1x03" H 7328 2352 60  0000 L CNN
+F 2 "Mlab_Pin_Headers:Straight_1x03" H 7250 2500 60  0001 C CNN
+F 3 "" H 7250 2500 60  0000 C CNN
+	1    7250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MLAB_HEADER:HEADER_1x03 J3
+U 1 1 5B671154
+P 7250 2800
+F 0 "J3" H 7328 2858 60  0000 L CNN
+F 1 "HEADER_1x03" H 7328 2752 60  0000 L CNN
+F 2 "Mlab_Pin_Headers:Straight_1x03" H 7250 2900 60  0001 C CNN
+F 3 "" H 7250 2900 60  0000 C CNN
+	1    7250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5B671181
+P 7000 3050
+F 0 "#PWR01" H 7000 2800 50  0001 C CNN
+F 1 "GND" H 7005 2877 50  0000 C CNN
+F 2 "" H 7000 3050 50  0001 C CNN
+F 3 "" H 7000 3050 50  0001 C CNN
+	1    7000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1900 7050 1900
+Wire Wire Line
+	7000 1900 7000 2000
+Wire Wire Line
+	7050 2900 7000 2900
+Connection ~ 7000 2900
+Wire Wire Line
+	7000 2900 7000 3050
+Wire Wire Line
+	7050 2800 7000 2800
+Connection ~ 7000 2800
+Wire Wire Line
+	7000 2800 7000 2900
+Wire Wire Line
+	7050 2700 7000 2700
+Connection ~ 7000 2700
+Wire Wire Line
+	7000 2700 7000 2800
+Wire Wire Line
+	7050 2000 7000 2000
+Connection ~ 7000 2000
+Wire Wire Line
+	7000 2000 7000 2100
+Wire Wire Line
+	7050 2100 7000 2100
+Connection ~ 7000 2100
+Wire Wire Line
+	7000 2100 7000 2300
+Wire Wire Line
+	7050 2300 7000 2300
+Connection ~ 7000 2300
+Wire Wire Line
+	7000 2300 7000 2400
+Wire Wire Line
+	7050 2400 7000 2400
+Connection ~ 7000 2400
+Wire Wire Line
+	7000 2400 7000 2500
+Wire Wire Line
+	7050 2500 7000 2500
+Connection ~ 7000 2500
+Wire Wire Line
+	7000 2500 7000 2700
+$EndSCHEMATC
