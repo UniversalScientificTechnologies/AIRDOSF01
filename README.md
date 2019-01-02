@@ -23,4 +23,4 @@ Device block diagram
 PCRD04B semiconductor detector schematics
 ![AIRDOSF01A - detektor schematics ](hw/sch_pcb/PCRD04B_Detector_Schematics.png)
 
-The device can be [purchased from Universal Scientific Technologies s.r.o](http://www.ust.cz/shop/product_info.php?&products_id=269) online store. 
+The device can be [purchased from Universal Scientific Technologies s.r.o](http://www.ust.cz/shop/product_info.php?&products_id=269) online store. The content and design in this repository is protected by [GNU General Public License v3.0](LICENSE).
