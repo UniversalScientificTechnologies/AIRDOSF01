@@ -1,9 +1,7 @@
-# AIRDOSF01A
-Airborne cosmic radiation dosimeter.
+# AIRDOSF01A - Airborne cosmic radiation dosimeter without GPS 
 
 Cosmic radiation dosimeter unit. It is intended for airborne measurement of cosmic radiation and dosimetry in mixed ionization fields on board of aircraft. 
-
-
+"F" version of AIRDOS has a flipped PIN diode sensor (by 90 degrees) in comparison of newer [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) alternative.
 
 ![AIRDOSF01A back panel](/doc/src/img/AIRDOSF01A_box_front.jpg "AIRDOS front panel")
 
@@ -23,4 +21,4 @@ Device block diagram
 PCRD04B semiconductor detector schematics
 ![AIRDOSF01A - detektor schematics ](hw/sch_pcb/PCRD04B_Detector_Schematics.png)
 
-The device can be [purchased from Universal Scientific Technologies s.r.o](http://www.ust.cz/shop/product_info.php?&products_id=269) online store. The content and design in this repository is protected by [GNU General Public License v3.0](LICENSE).
+The device was replaced by [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02). The content and design in this repository is protected by [GNU General Public License v3.0](LICENSE).
